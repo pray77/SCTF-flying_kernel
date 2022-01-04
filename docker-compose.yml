@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ctf:
+    build: .
+    container_name: "flying_kernel"
+    ports:
+      - "7777:9999"
